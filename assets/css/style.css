@@ -616,11 +616,13 @@ section {
   font-size: 34px;
   color: #2f4d5a;
   margin-bottom: 30px;
+  padding-left:10px;
 }
 
 .about .content p {
   margin-bottom: 30px;
   text-align: justify;
+  padding-left:10px;
 }
 
 .about .content .about-btn {
