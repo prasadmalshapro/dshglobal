@@ -616,13 +616,15 @@ section {
   font-size: 34px;
   color: #2f4d5a;
   margin-bottom: 30px;
-  padding-left:10px;
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * .5);
 }
 
 .about .content p {
   margin-bottom: 30px;
   text-align: justify;
-  padding-left:10px;
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * .5);
 }
 
 .about .content .about-btn {
